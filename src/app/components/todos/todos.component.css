@@ -1,1 +1,10 @@
+.todos_scrollable {
+  margin-bottom: 50px;
+  max-height: 380px;
+  overflow-y: auto;
+}
 
+.todo_main {
+  margin: auto;
+  max-width: 800px;
+}

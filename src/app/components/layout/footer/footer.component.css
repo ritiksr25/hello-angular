@@ -1,0 +1,17 @@
+.main_footer {
+  position: fixed;
+  bottom: 0px;
+  background: #333;
+  color: #ddd;
+  text-align: center;
+  padding: 7px;
+  width: 100%;
+}
+
+.main_footer a {
+  color: #ddd;
+}
+
+.main_footer a:hover {
+  color: #db4437;
+}

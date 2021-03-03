@@ -1,1 +1,11 @@
-<app-todo *ngFor="let todo of todos" [todo]="todo"> </app-todo>
+<div class="todo_main">
+  <app-add (addTodo)="addTodo($event)"></app-add>
+  <div class="todos_scrollable">
+    <app-todo
+      *ngFor="let todo of todos"
+      [todo]="todo"
+      (deleteTodo)="deleteTodo($event)"
+    >
+    </app-todo>
+  </div>
+</div>
