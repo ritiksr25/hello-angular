@@ -1,0 +1,36 @@
+.del_button {
+  background: #db4437;
+  color: #fff;
+  border: none;
+  padding: 5px 9px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.toggle_cb {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.del_button:hover {
+  background: #333;
+}
+
+.todo {
+  background: #ddd;
+  padding: 10px;
+  border: 2px #ccc solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.is_completed {
+  text-decoration: line-through;
+}
+
+.is_completed :hover {
+  color: #ddd;
+}
